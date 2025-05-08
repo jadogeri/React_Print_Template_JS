@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-print-gh-pages/static/css/main.e6b38434.css",
+    "main.js": "/react-print-gh-pages/static/js/main.c9184df4.js",
+    "static/js/453.389bbcb3.chunk.js": "/react-print-gh-pages/static/js/453.389bbcb3.chunk.js",
+    "static/media/printer-icon.png": "/react-print-gh-pages/static/media/printer-icon.69069d94601d3e1cb9cb.png",
+    "index.html": "/react-print-gh-pages/index.html",
+    "main.e6b38434.css.map": "/react-print-gh-pages/static/css/main.e6b38434.css.map",
+    "main.c9184df4.js.map": "/react-print-gh-pages/static/js/main.c9184df4.js.map",
+    "453.389bbcb3.chunk.js.map": "/react-print-gh-pages/static/js/453.389bbcb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6b38434.css",
+    "static/js/main.c9184df4.js"
+  ]
+}
