@@ -5,6 +5,7 @@ import Invitation from './components/Invitation';
 import { useReactToPrint } from 'react-to-print';
 import StickyFooter from './layouts/StickyFooter';
 import Header from './layouts/Header';
+import Printer from './components/Printer';
 
 function App() {
   const contentRef = useRef(null)
@@ -40,7 +41,10 @@ function App() {
     className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min"
     id="printer">
       Print Wedding Invitation 
-      <img src={printer} alt='printer' width={30} height={40} onClick={()=>{handlePrint()}}/>
+      <Printer
+        src={printer}
+        onClick={handlePrint}
+      />
   </div>
   {/** BEGIN OF PRINT COMPONENT **/}
   <Invitation contentRef={contentRef}/>
