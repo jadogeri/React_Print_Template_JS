@@ -21,11 +21,13 @@ This is a frontend Application temnplate for printing functionality in ReactJS.
 
 [Wedding Invitation Template](https://www.w3schools.com/w3css/tryw3css_templates_wedding.htm)
 
+<!--
 ## Deployment
 
 Application is deployed in vercel
 
  [https://fastfood-smoky.vercel.app ](https://fastfood-smoky.vercel.app/)
+ -->
 
 ## Repository
 
@@ -71,7 +73,7 @@ Application is deployed in vercel
 
 ### **1.1 Purpose**
 
-This document outlines the components, and design considerations for migrating html 5 responsive bootstrap to reactjs application.
+This document outlines the components, and design considerations for add printing functionality to reactjs application.
 
 ## **2. Installation**
 
@@ -87,24 +89,24 @@ This document outlines the components, and design considerations for migrating h
 
 1 Open command prompt or terminal.
 
-2 Type command git clone https://github.com/jadogeri/fastfoods.git then press enter.
+2 Type command git clone https://github.com/jadogeri/React_Print_Template_JS.git then press enter.
 
 ```bash
-  git clone https://github.com/jadogeri/fastfoods.git
+  git clone https://github.com/jadogeri/React_Print_Template_JS.git
 ```
 
-3 Enter command cd fastfoods/fastfood then press enter.
+3 Enter command cd React_Print_Template_JS/print-project then press enter.
 
 ```bash
-  cd fastfoods/fastfood
+  cd React_Print_Template_JS/print-project
 ```
 
 #### **3.1.1 Run Locally**
 
-1 Type npm install to install dependencies.
+1 Type npm install --force to install dependencies.
 
 ```bash
-  npm install
+  npm install --force
 ```
 
 2 Type npm start to run application
