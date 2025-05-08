@@ -19,7 +19,7 @@ This is a frontend Application temnplate for printing functionality in ReactJS.
 
 ## Project Template
 
-[Wedding Invitation Template](https://www.w3schools.com/w3css/tryw3css_templates_wedding.htm/)
+[Wedding Invitation Template](https://www.w3schools.com/w3css/tryw3css_templates_wedding.htm)
 
 ## Deployment
 
