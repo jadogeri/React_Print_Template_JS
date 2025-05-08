@@ -1,4 +1,5 @@
 import './App.css';
+import printer from "./assets/images/printer-icon.png"
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
   <style
     dangerouslySetInnerHTML={{
       __html:
-        '\nbody,h1,h2{font-family: "Raleway", sans-serif}\nbody, html {height: 100%}\np {line-height: 2}\n.bgimg, .bgimg2 {\n  min-height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.bgimg {background-image: url("/w3images/wedding_couple.jpg")}\n.bgimg2 {background-image: url("/w3images/flowers.jpg")}\n'
+        '\nbody,h1,h2{font-family: "Raleway", sans-serif}\nbody, html {height: 100%}\np {line-height: 2}\n.bgimg, .bgimg2 {\n  min-height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.bgimg {background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg")}\n.bgimg2 {background-image: url("https://www.w3schools.com/w3images/flowers.jpg")}\n'
     }}
   />
   {/* Header / Home*/}
@@ -60,17 +61,21 @@ function App() {
     </div>
   </div>
   {/* About / Jane And John */}
+ 
   <div
     className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min"
     id="us"
   >
+     <div>
+    Print Wedding Invitation <img src={printer} alt='printer'/>
+  </div>
     <div className="w3-content">
       <h1 className="w3-center w3-text-grey">
         <b>Jane &amp; John</b>
       </h1>
       <img
         className="w3-round w3-grayscale-min"
-        src="/w3images/wedding_couple2.jpg"
+        src="https://www.w3schools.com/w3images/wedding_couple2.jpg"
         style={{ width: "100%", margin: "32px 0" }}
       />
       <p>
@@ -116,7 +121,7 @@ function App() {
       </h1>
       <img
         className="w3-round-large w3-grayscale-min"
-        src="/w3images/wedding_location.jpg"
+        src="https://www.w3schools.com/w3images/wedding_location.jpg"
         style={{ width: "100%", margin: "64px 0" }}
       />
       <div className="w3-row">
